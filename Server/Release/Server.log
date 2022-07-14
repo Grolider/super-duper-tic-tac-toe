@@ -1,0 +1,11 @@
+﻿  Server.cpp
+C:\Users\User1\source\repos\Server\Server.cpp(341,23): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\User1\source\repos\Server\Server.cpp(341,64): warning C4305: инициализация: усечение из "int" в "char"
+C:\Users\User1\source\repos\Server\Server.cpp(341,23): warning C4309: инициализация: усечение константного значения
+C:\Users\User1\source\repos\Server\Server.cpp(844,5): warning C4551: в вызове функции отсутствует список аргументов
+  Создание кода
+  2 of 411 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Server.vcxproj -> C:\Users\User1\source\repos\Server\Release\Server.exe
