@@ -862,9 +862,9 @@ int main()
     int sizeofaddr = sizeof(addr);
     addr.sin_addr.s_addr = inet_addr("127.0.0.1");
     addr.sin_port = htons(1111);
-    addr.sin_family = AF_INET;
+    addr.sin_family = PF_INET;
 
-    SOCKET sListen = socket(AF_INET, SOCK_STREAM, NULL);
+    SOCKET sListen = socket(PF_INET, SOCK_STREAM, NULL);
     bind(sListen, (SOCKADDR*)&addr, sizeof(addr));
     listen(sListen, SOMAXCONN);
 

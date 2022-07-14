@@ -1,11 +1,14 @@
 ﻿  Server.cpp
-C:\Users\User1\source\repos\Server\Server.cpp(341,23): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
-C:\Users\User1\source\repos\Server\Server.cpp(341,64): warning C4305: инициализация: усечение из "int" в "char"
-C:\Users\User1\source\repos\Server\Server.cpp(341,23): warning C4309: инициализация: усечение константного значения
-C:\Users\User1\source\repos\Server\Server.cpp(844,5): warning C4551: в вызове функции отсутствует список аргументов
+E:\Codes(2021)\Server\Server.cpp(341,23): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+E:\Codes(2021)\Server\Server.cpp(341,64): warning C4305: инициализация: усечение из "int" в "char"
+E:\Codes(2021)\Server\Server.cpp(341,23): warning C4309: инициализация: усечение константного значения
+E:\Codes(2021)\Server\Server.cpp(844,5): warning C4551: в вызове функции отсутствует список аргументов
   Создание кода
-  2 of 411 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB not found, fall back to full compilation.
+E:\Codes(2021)\Server\Server.cpp(49): warning C4715: Find_Connection: значение возвращается не при всех путях выполнения
+E:\Codes(2021)\Server\Server.cpp(107): warning C4715: Find_Client: значение возвращается не при всех путях выполнения
+E:\Codes(2021)\Server\Server.cpp(235): warning C4715: XO::gameplay: значение возвращается не при всех путях выполнения
+E:\Codes(2021)\Server\Server.cpp(305): warning C4172: возвращение адреса локальной или временной переменной : msg
+  All 411 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Создание кода завершено
-  Server.vcxproj -> C:\Users\User1\source\repos\Server\Release\Server.exe
+  Server.vcxproj -> E:\Codes(2021)\Server\Release\Server.exe
