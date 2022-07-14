@@ -17,10 +17,10 @@ using namespace System::Windows::Forms;
         int sizeofaddr = sizeof(addr);
         addr.sin_addr.s_addr = inet_addr(ip.c_str());
         addr.sin_port = htons(1111);
-        addr.sin_family = AF_INET;
+        addr.sin_family = PF_INET;
 
 
-        Connection = socket(AF_INET, SOCK_STREAM, NULL);
+        Connection = socket(PF_INET, SOCK_STREAM, 0);
         if (connect(Connection, (SOCKADDR*)&addr, sizeof(addr)) != 0) {
             return false;
         }
