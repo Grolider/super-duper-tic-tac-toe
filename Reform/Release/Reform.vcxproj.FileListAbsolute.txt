@@ -1,3 +1,0 @@
-E:\Codes(2021)\Reform\Release\Reform.exe
-E:\Codes(2021)\Reform\Release\Reform.MyForm.resources
-E:\Codes(2021)\Reform\Release\Reform.vcxproj.GenerateResource.cache
